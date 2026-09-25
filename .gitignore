@@ -1,0 +1,8 @@
+backend/venv/
+backend/evoting.db
+backend/.local_enc_key
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/routers/__pycache__/
+frontend/node_modules/
+frontend/dist/

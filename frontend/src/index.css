@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #14213d;
+  --color-ink-light: #1f3a63;
+  --color-paper: #f7f5f0;
+  --color-paper-raised: #ffffff;
+  --color-accent: #0f6e5c;
+  --color-accent-dark: #0b5346;
+  --color-danger: #b3261e;
+  --color-warn: #a15c00;
+  --color-line: #dcd8cc;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+.card {
+  background: var(--color-paper-raised);
+  border: 1px solid var(--color-line);
+  border-radius: 6px;
+}
+
+.btn-primary {
+  background: var(--color-accent);
+  color: white;
+  border-radius: 4px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 600;
+  transition: background 0.15s;
+}
+.btn-primary:hover { background: var(--color-accent-dark); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-ink);
+  border: 1px solid var(--color-line);
+  border-radius: 4px;
+  padding: 0.6rem 1.1rem;
+  font-weight: 500;
+}
+.btn-secondary:hover { border-color: var(--color-ink); }
+
+.input {
+  border: 1px solid var(--color-line);
+  border-radius: 4px;
+  padding: 0.55rem 0.75rem;
+  width: 100%;
+  background: white;
+}
+.input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

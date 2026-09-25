@@ -1,0 +1,5 @@
+voter_id,name,email,constituency
+V001,Alice Sharma,alice@example.com,North
+V002,Bob Iyer,bob@example.com,North
+V003,Chetan Rao,chetan@example.com,South
+V004,Divya Nair,divya@example.com,South
