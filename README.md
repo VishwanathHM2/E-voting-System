@@ -1,14 +1,12 @@
 # SecureEVote — Local Setup Guide
 
-A working, locally-runnable secure e-voting system: TOTP 2FA, face-recognition
+E-voting system: TOTP 2FA, face-recognition
 verification, AES-256-GCM encrypted ballots, and a tamper-evident hash-chain
-ledger. Built for a 4-day academic major project, local use only (no Docker,
-no cloud deployment configured).
-
+ledger.
 **Not certified for government or public elections.** This is an
 organizational/institutional election platform.
 
-## What's real vs. simplified (read this before your viva)
+## What's real vs. simplified
 
 Be upfront about these — a panel will ask, and it's better to have already
 answered it in your report.
